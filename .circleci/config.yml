@@ -1,0 +1,38 @@
+version: 2.1
+orbs:
+  node: circleci/node@5.0.2
+alias:
+  - &defaults
+    docker:
+      - image: cimg/node:lts
+    executor: node/default
+jobs:
+  branch-job:
+    <<: *defaults
+    steps:
+      - checkout
+      - node/install-packages
+      - run: npm test
+  main-job:
+    <<: *defaults
+    steps:
+      - checkout
+      - node/install-packages
+      - run: npm test
+      - run: semantic-release
+workflows:
+  version: 2
+  branch-workflow:
+    jobs:
+      - branch-job:
+          filters:
+            branches:
+              ignore:
+                - main
+  main-workflow:
+    jobs:
+      - main-job:
+          filters:
+            branches:
+              only:
+                - main
