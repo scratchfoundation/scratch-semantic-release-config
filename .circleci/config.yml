@@ -13,12 +13,14 @@ jobs:
       - checkout
       - node/install-packages
       - run: npm test
+      - run: npx commitlint --from=`git merge-base HEAD main`
   main-job:
     <<: *defaults
     steps:
       - checkout
       - node/install-packages
       - run: npm test
+      - run: npx commitlint --from='HEAD~1'
       - run: semantic-release
 workflows:
   version: 2
