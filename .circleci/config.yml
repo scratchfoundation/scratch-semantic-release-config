@@ -21,7 +21,7 @@ jobs:
       - node/install-packages
       - run: npm test
       - run: npx commitlint --from='HEAD~1'
-      - run: semantic-release
+      - run: npx semantic-release
 workflows:
   version: 2
   branch-workflow:
