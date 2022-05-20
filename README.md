@@ -1,19 +1,13 @@
-# @jedmao/semantic-release-npm-github-config
+# scratch-semantic-release-config
 
-[**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish npm packages with [GitHub](https://github.com).
+[![npm version](https://img.shields.io/npm/v/scratch-semantic-release-config)](https://www.npmjs.com/package/scratch-semantic-release-config)
 
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-[![GitHub Actions](https://github.com/jedmao/semantic-release-npm-github-config/workflows/Node%20CI/badge.svg?event=push)](https://github.com/jedmao/semantic-release-npm-github-config/actions)
-[![npm version](https://img.shields.io/npm/v/@jedmao/semantic-release-npm-github-config/latest.svg)](https://www.npmjs.com/package/@jedmao/semantic-release-npm-github-config)
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- markdownlint-disable commands-show-output -->
+Remixed from: [@jedmao/semantic-release-npm-github-config](https://github.com/jedmao/semantic-release-npm-github-config)
 
 ## Plugins
 
-This [shareable configuration](https://github.com/jedmao/semantic-release-npm-github-config/blob/master/.releaserc.json) uses the following plugins:
+This [shareable configuration](
+https://github.com/LLK/scratch-semantic-release-config/blob/main/.releaserc.json) uses the following plugins:
 
 - [`@semantic-release/commit-analyzer`](https://github.com/semantic-release/commit-analyzer)
 - [`@semantic-release/release-notes-generator`](https://github.com/semantic-release/release-notes-generator)
@@ -23,7 +17,9 @@ This [shareable configuration](https://github.com/jedmao/semantic-release-npm-gi
 
 ## Summary
 
-- Provides an informative [git](https://github.com/semantic-release/git) commit message for the release commit that does not trigger continuous integration and conforms to the [conventional commits specification](https://www.conventionalcommits.org/) (e.g., "chore(release): 1.2.3 [skip ci]\n\nnotes").
+- Provides an informative [git](https://github.com/semantic-release/git) commit message for the release commit that
+  does not trigger continuous integration and conforms to the [conventional commits specification](
+  https://www.conventionalcommits.org/) (e.g., "chore(release): 1.2.3 [skip ci]\n\nnotes").
 - Creates a tarball that gets uploaded with each [GitHub release](https://github.com/semantic-release/github).
 - Publishes the same tarball to [npm](https://github.com/semantic-release/npm).
 - Commits the version change in `package.json`.
@@ -32,7 +28,7 @@ This [shareable configuration](https://github.com/jedmao/semantic-release-npm-gi
 ## Install
 
 ```bash
-$ npm install --save-dev semantic-release @jedmao/semantic-release-npm-github-config
+npm install --save-dev semantic-release scratch-semantic-release-config
 ```
 
 ## Usage
@@ -41,15 +37,17 @@ The shareable config can be configured in the [**semantic-release** configuratio
 
 ```json
 {
-  "extends": "@jedmao/semantic-release-npm-github-config",
-  "branch": "master"
+  "extends": "scratch-semantic-release-config",
+  "branch": "main"
 }
 ```
 
 ## Configuration
 
 Ensure that your CI configuration has the following **_secret_** environment variables set:
-- [`GH_TOKEN`](https://github.com/settings/tokens) with [`public_repo`](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/#available-scopes) access.
+
+- [`GH_TOKEN`](https://github.com/settings/tokens) with [`public_repo`](
+  https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/#available-scopes) access.
 - [`NPM_TOKEN`](https://docs.npmjs.com/cli/token)
 - [`NODE_AUTH_TOKEN`](https://docs.npmjs.com/cli/token)
 
@@ -57,7 +55,9 @@ See each [plugin](#plugins) documentation for required installation and configur
 
 ### GitHub workflows
 
-If you're [configuring a GitHub workflow](https://help.github.com/en/articles/configuring-a-workflow) you might want to do a test build matrix first and then publish only if those tests succeed across all environments. The following will do just that, immediately after something is merged into `master`.
+If you're [configuring a GitHub workflow](https://help.github.com/en/articles/configuring-a-workflow) you might want
+to do a test build matrix first and then publish only if those tests succeed across all environments. The following
+will do just that, immediately after something is merged into `main`.
 
 ```yml
 name: Node CI
@@ -65,7 +65,7 @@ name: Node CI
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   test:
