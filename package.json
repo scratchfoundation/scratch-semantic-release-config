@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "commit": "git-cz",
-    "test": "xo"
+    "test": ""
   },
   "publishConfig": {
     "access": "public"
@@ -37,13 +37,6 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "prettier": {
-    "printWidth": 120,
-    "trailingComma": "es5"
-  },
-  "xo": {
-    "prettier": true
-  },
   "dependencies": {
     "@semantic-release/changelog": "^3.0.6",
     "@semantic-release/commit-analyzer": "^6.3.3",
@@ -58,7 +51,6 @@
   "devDependencies": {
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
-    "semantic-release": "^15.13.31",
-    "xo": "^0.25.3"
+    "semantic-release": "^15.13.31"
   }
 }
