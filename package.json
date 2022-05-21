@@ -38,6 +38,9 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "release": {
+    "branches": ["main"]
+  },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
