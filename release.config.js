@@ -1,4 +1,5 @@
 module.exports = {
+    "branches": ["main"],
     "plugins": [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
@@ -6,6 +7,12 @@ module.exports = {
             "@semantic-release/changelog",
             {
                 "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file. See\n[Conventional Commits](https://conventionalcommits.org) for commit guidelines."
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
         ],
         [
@@ -19,13 +26,6 @@ module.exports = {
             {
                 "assets": "pack/*.tgz"
             }
-        ],
-        [
-            "@semantic-release/git",
-            {
-                "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
-                "assets": ["package.json", "package-lock.json", "CHANGELOG.md"]
-            }
         ]
-    ]
+    ],
 };
