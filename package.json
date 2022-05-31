@@ -9,7 +9,7 @@
   "scripts": {
     "commit": "git-cz",
     "prepare": "husky install",
-    "test": ""
+    "test": "eslint ."
   },
   "publishConfig": {
     "access": "public"
@@ -52,6 +52,8 @@
   "devDependencies": {
     "@commitlint/cli": "17.0.1",
     "@commitlint/config-conventional": "17.0.0",
+    "eslint": "8.16.0",
+    "eslint-config-scratch": "8.0.0",
     "husky": "8.0.1",
     "semantic-release": "19.0.2"
   }
