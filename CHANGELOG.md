@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.3...v1.0.4) (2022-08-31)
+
+
+### Bug Fixes
+
+* **release:** run npm plugin before git so new package.json version gets committed ([a994008](https://github.com/LLK/scratch-semantic-release-config/commit/a99400805bb9e62e2a8ee7ad10d77d3fc6a7088f))
+
 ## [1.0.3](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.2...v1.0.3) (2022-08-26)
 
 
