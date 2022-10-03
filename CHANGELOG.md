@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.4...v1.0.5) (2022-10-03)
+
+
+### Bug Fixes
+
+* **release:** limit release git commit message to 32k ([7d40354](https://github.com/LLK/scratch-semantic-release-config/commit/7d4035411704dc7d7b1f239584869c886c003079))
+
 ## [1.0.4](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.3...v1.0.4) (2022-08-31)
 
 
