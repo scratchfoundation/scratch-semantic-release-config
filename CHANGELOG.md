@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.5...v1.0.6) (2023-03-22)
+
+
+### Bug Fixes
+
+* **deps:** update semantic-release monorepo ([e12550b](https://github.com/LLK/scratch-semantic-release-config/commit/e12550b057b0cc0e896a4ebc20995270fbf6e507))
+
 ## [1.0.5](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.4...v1.0.5) (2022-10-03)
 
 
