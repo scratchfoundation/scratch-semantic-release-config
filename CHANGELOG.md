@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.6...v1.0.7) (2023-03-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/changelog to v6.0.3 ([6341b1d](https://github.com/LLK/scratch-semantic-release-config/commit/6341b1d79b6322d5f699dc7283c6de67fb392ce2))
+
 ## [1.0.6](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.5...v1.0.6) (2023-03-22)
 
 
