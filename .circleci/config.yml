@@ -37,6 +37,8 @@ workflows:
   main-workflow:
     jobs:
       - main-job:
+          context:
+            - scratch-npm-creds
           filters:
             branches:
               only:
