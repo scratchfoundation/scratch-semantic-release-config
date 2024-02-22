@@ -1,6 +1,6 @@
 {
   "name": "scratch-semantic-release-config",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "semantic-release shareable configuration for Scratch",
   "main": "release.config.js",
   "files": [

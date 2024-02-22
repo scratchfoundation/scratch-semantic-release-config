@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.13](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.12...v1.0.13) (2024-02-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-scratch to v9.0.6 ([4040a3b](https://github.com/LLK/scratch-semantic-release-config/commit/4040a3b4e6f9c03a726e8f6167b5766eb009c851))
+
 ## [1.0.12](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.11...v1.0.12) (2024-02-22)
 
 
