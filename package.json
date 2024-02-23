@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LLK/scratch-semantic-release-config.git"
+    "url": "https://github.com/scratchfoundation/scratch-semantic-release-config.git"
   },
   "keywords": [
     "semantic-release",
@@ -30,9 +30,9 @@
   "author": "Christopher Willis-Ford <7019101+cwillisf@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LLK/scratch-semantic-release-config/issues"
+    "url": "https://github.com/scratchfoundation/scratch-semantic-release-config/issues"
   },
-  "homepage": "https://github.com/LLK/scratch-semantic-release-config#readme",
+  "homepage": "https://github.com/scratchfoundation/scratch-semantic-release-config#readme",
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
