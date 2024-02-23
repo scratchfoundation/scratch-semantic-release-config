@@ -19,6 +19,7 @@
     "url": "https://github.com/scratchfoundation/scratch-semantic-release-config.git"
   },
   "keywords": [
+	"Scratch",
     "semantic-release",
     "semantic-release-config",
     "npm",
