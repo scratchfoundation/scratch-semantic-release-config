@@ -7,7 +7,7 @@ Remixed from: [@jedmao/semantic-release-npm-github-config](https://github.com/je
 ## Plugins
 
 This [shareable configuration](
-https://github.com/LLK/scratch-semantic-release-config/blob/main/.releaserc.json) uses the following plugins:
+https://github.com/scratchfoundation/scratch-semantic-release-config/blob/main/.releaserc.json) uses the following plugins:
 
 - [`@semantic-release/commit-analyzer`](https://github.com/semantic-release/commit-analyzer)
 - [`@semantic-release/release-notes-generator`](https://github.com/semantic-release/release-notes-generator)
