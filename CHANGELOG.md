@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.14](https://github.com/scratchfoundation/scratch-semantic-release-config/compare/v1.0.13...v1.0.14) (2024-02-23)
+
+
+### Bug Fixes
+
+* add Scratch to npm keywords ([f39e937](https://github.com/scratchfoundation/scratch-semantic-release-config/commit/f39e937c7b9282309e7745f5cf45ca53eb9afbde))
+
 ## [1.0.13](https://github.com/LLK/scratch-semantic-release-config/compare/v1.0.12...v1.0.13) (2024-02-22)
 
 
