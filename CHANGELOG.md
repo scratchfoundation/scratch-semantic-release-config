@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.15](https://github.com/scratchfoundation/scratch-semantic-release-config/compare/v1.0.14...v1.0.15) (2024-09-10)
+
+
+### Bug Fixes
+
+* work around semantic-release/npm plugin prepack issue ([a5d298d](https://github.com/scratchfoundation/scratch-semantic-release-config/commit/a5d298de3b38351c1c1cfc59d3db8041c10505de))
+
 ## [1.0.14](https://github.com/scratchfoundation/scratch-semantic-release-config/compare/v1.0.13...v1.0.14) (2024-02-23)
 
 
