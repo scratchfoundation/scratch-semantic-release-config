@@ -15,7 +15,10 @@ module.exports = {
         [
             '@semantic-release/npm',
             {
-                // Do not set 'tarballDir' without considering this issue: https://github.com/semantic-release/npm/issues/535
+                // Do not set 'tarballDir' to a relative path without considering this issue:
+                // https://github.com/semantic-release/npm/issues/535
+                // If the tarball is within the package directory, it will be included in the second 'prepack' run.
+                tarballDir: '/tmp/semantic-release-${nextRelease.gitHead}/'
             }
         ],
         [
@@ -30,7 +33,7 @@ module.exports = {
         [
             '@semantic-release/github',
             {
-                assets: 'pack/*.tgz'
+                assets: '/tmp/semantic-release-${nextRelease.gitHead}/*.tgz'
             }
         ]
     ]
