@@ -12,7 +12,7 @@ module.exports = {
         [
             '@semantic-release/npm',
             {
-                tarballDir: 'pack'
+                // Do not set 'tarballDir' without considering this issue: https://github.com/semantic-release/npm/issues/535
             }
         ],
         [
