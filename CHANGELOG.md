@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.16](https://github.com/scratchfoundation/scratch-semantic-release-config/compare/v1.0.15...v1.0.16) (2024-09-11)
+
+
+### Bug Fixes
+
+* try to store npm tarball in /tmp dir named with git hash ([76d5a20](https://github.com/scratchfoundation/scratch-semantic-release-config/commit/76d5a2080585ef3bf24c7c11540a8b19bb194cbb))
+
 ## [1.0.15](https://github.com/scratchfoundation/scratch-semantic-release-config/compare/v1.0.14...v1.0.15) (2024-09-10)
 
 
