@@ -1,3 +1,6 @@
+// semantic-release parses curly-brace template items in plain strings:
+/* eslint-disable no-template-curly-in-string */
+
 module.exports = {
     branches: ['main', {name: 'beta', prerelease: true}],
     plugins: [
