@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/scratchfoundation/scratch-semantic-release-config/compare/v1.0.16...v2.0.0) (2024-11-25)
+
+
+* chore!: set license to AGPL-3.0-only ([b1ccfa9](https://github.com/scratchfoundation/scratch-semantic-release-config/commit/b1ccfa9e105f3a5a3a21e550c1496a28d2ccb96e))
+
+
+### BREAKING CHANGES
+
+* This project is now licensed under the AGPL version 3.0
+
+See https://www.scratchfoundation.org/open-source-license
+
 ## [1.0.16](https://github.com/scratchfoundation/scratch-semantic-release-config/compare/v1.0.15...v1.0.16) (2024-09-11)
 
 
