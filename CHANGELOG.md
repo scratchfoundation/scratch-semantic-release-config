@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/scratchfoundation/scratch-semantic-release-config/compare/v2.0.0...v3.0.0) (2024-11-25)
+
+
+* chore!: set license to BSD-3-Clause ([9e84194](https://github.com/scratchfoundation/scratch-semantic-release-config/commit/9e84194967a3a148f066c254adb5ff44ab0935de))
+
+
+### BREAKING CHANGES
+
+* The license for this project has changed to BSD-3-Clause
+
 # [2.0.0](https://github.com/scratchfoundation/scratch-semantic-release-config/compare/v1.0.16...v2.0.0) (2024-11-25)
 
 
