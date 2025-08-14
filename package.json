@@ -51,8 +51,8 @@
     "semantic-release": ">=19.0.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.8.1",
-    "@commitlint/config-conventional": "17.8.1",
+    "@commitlint/cli": "19.7.1",
+    "@commitlint/config-conventional": "19.7.1",
     "eslint": "8.57.1",
     "eslint-config-scratch": "9.0.9",
     "husky": "8.0.3",
