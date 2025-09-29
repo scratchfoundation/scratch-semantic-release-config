@@ -7,12 +7,6 @@ module.exports = {
         '@semantic-release/commit-analyzer',
         '@semantic-release/release-notes-generator',
         [
-            '@semantic-release/changelog',
-            {
-                changelogTitle: '# Changelog\n\nAll notable changes to this project will be documented in this file. See\n[Conventional Commits](https://conventionalcommits.org) for commit guidelines.'
-            }
-        ],
-        [
             '@semantic-release/npm',
             {
                 // Do not set 'tarballDir' to a relative path without considering this issue:
