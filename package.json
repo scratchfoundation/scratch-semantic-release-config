@@ -52,8 +52,8 @@
   "devDependencies": {
     "@commitlint/cli": "20.5.3",
     "@commitlint/config-conventional": "20.5.3",
-    "eslint": "8.57.1",
-    "eslint-config-scratch": "9.0.9",
+    "eslint": "10.13.0",
+    "eslint-config-scratch": "15.0.1",
     "husky": "9.1.7",
     "semantic-release": "25.0.9"
   }
